@@ -230,15 +230,20 @@ alias tv='top -o vsize'
 function zipr() {
   zip -r $1.zip $1
 }
+# HEROKU
+# ------
+alias ho='heroku open'
+alias hrdm='heroku run rake db:migrate'
+alias hrc='heroku run rails c'
 
-# GOOD
-# ----
+# Folders
+# -------
 
-alias   c='cd ~/code; cd'
-alias cdr='cd ~/code/good.rb'
-alias cdi='cd ~/code/good.is'
-alias cdg='cd ~/code/gems'
-alias cdm='cd ~/code/maker'
-alias cdh='cd ~/code/hatch'
-alias cdu='cd ~/code/calumet'
-alias cdz='cd ~/code/citizen'
+alias   c='cd ~/Documents/webapps/; cd'
+alias cda='cd ~/Documents/webapps/avis'
+alias cdd='cd ~/Documents/local\ dev/'
+alias cds='cd ~/Documents/School/'
+
+# Lynx.....
+# ---------
+alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
